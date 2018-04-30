@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provider "virtualbox" do |v|
     v.gui = true
     v.name = "workspace eos"
-    v.memory = 4096
+    v.memory = 8196
     v.cpus = 2
     v.customize ["modifyvm", :id, "--vram", "256"]
   end
