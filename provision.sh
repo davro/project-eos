@@ -16,7 +16,7 @@ sudo apt-get -y install git
 cd ~
 git clone https://github.com/EOSIO/eos --recursive
 
-# EOSIS requires user interaction to run so yes man it is.
+# EOSIS requires user interaction, so echo 1 to script
 cd eos
 echo 1 | ./eosio_build.sh
 
