@@ -17,7 +17,9 @@ vagrant ssh
 cd eos
 
 $ /home/vagrant/opt/mongodb/bin/mongod -f /home/vagrant/opt/mongodb/mongod.conf &
+
 $ export PATH=${HOME}/opt/mongodb/bin:$PATH
+
 $ cd /home/vagrant/eos/build; make test
 
 Wait for tests to pass or fail : | 
@@ -31,6 +33,7 @@ Total Test time (real) = 778.88 sec
 Once EOS is compiled it should only take a few seconds to install.
 
 $ cd ~/eos/build
+
 $ sudo make install
 
 
