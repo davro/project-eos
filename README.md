@@ -1,4 +1,4 @@
-# Project EOS -- Dawn 3 
+cd ~/eos/build# Project EOS -- Dawn 3 
 EOS project box (playground for playing)
 
 
@@ -28,7 +28,8 @@ Total Test time (real) = 778.88 sec
 
 
 # Install EOS
-Be patient as it may take a while to install.
+Once EOS is compiled it should only take a few seconds to install.
+
 $ cd ~/eos/build
 $ sudo make install
 
