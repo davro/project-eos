@@ -21,7 +21,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.customize ["modifyvm", :id, "--vram", "256"]
   end
 
-  # Provision on start up and run services, saves a lot of bull$hit
-  config.vm.provision :shell, path: "provision.sh", run: "always", privileged: false
+  config.vm.provision :shell, path: "provision.sh", privileged: false
+  #config.vm.provision :shell, path: "provision.sh", run: "always", privileged: false
 end
 
